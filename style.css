@@ -32,7 +32,7 @@ body {
     text-align: center;
   }
 
-  #student-pic{
+  #student-pic {
     width: 300px;
     height: 400px;
     display: center;
@@ -41,3 +41,10 @@ body {
   #new-form {
     text-align: center;
 }
+
+#imgTwo {
+    width: 200px;
+    height: 250px;
+    display: center;
+    border: 10px solid white;
+ }
