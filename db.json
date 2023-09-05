@@ -1,4 +1,6 @@
-[
+{
+   "characters" : 
+    [
     {
         "id": 1,
         "name": "Harry Potter",
@@ -7,7 +9,7 @@
             "The Chosen One"
         ],
         "species": "human",
-        "gender": "male",
+        "gender": "Male",
         "house": "Gryffindor",
         "dateOfBirth": "31-07-1980",
         "yearOfBirth": 1980,
@@ -33,7 +35,7 @@
         "name": "Hermione Granger",
         "alternate_names": [],
         "species": "human",
-        "gender": "female",
+        "gender": "Female",
         "house": "Gryffindor",
         "dateOfBirth": "19-09-1979",
         "yearOfBirth": 1979,
@@ -61,7 +63,7 @@
             "Dragomir Despard"
         ],
         "species": "human",
-        "gender": "male",
+        "gender": "Male",
         "house": "Gryffindor",
         "dateOfBirth": "01-03-1980",
         "yearOfBirth": 1980,
@@ -87,7 +89,7 @@
         "name": "Draco Malfoy",
         "alternate_names": [],
         "species": "human",
-        "gender": "male",
+        "gender": "Male",
         "house": "Slytherin",
         "dateOfBirth": "05-06-1980",
         "yearOfBirth": 1980,
@@ -113,7 +115,7 @@
         "name": "Cedric Diggory",
         "alternate_names": [],
         "species": "human",
-        "gender": "male",
+        "gender": "Male",
         "house": "Hufflepuff",
         "dateOfBirth": null,
         "yearOfBirth": 1977,
@@ -139,7 +141,7 @@
         "name": "Cho Chang",
         "alternate_names": [],
         "species": "human",
-        "gender": "female",
+        "gender": "Female",
         "house": "Ravenclaw",
         "dateOfBirth": "07-04-1979",
         "yearOfBirth": 1979,
@@ -165,7 +167,7 @@
         "name": "Neville Longbottom",
         "alternate_names": [],
         "species": "human",
-        "gender": "male",
+        "gender": "Male",
         "house": "Gryffindor",
         "dateOfBirth": "30-07-1980",
         "yearOfBirth": 1980,
@@ -191,7 +193,7 @@
         "name": "Luna Lovegood",
         "alternate_names": [],
         "species": "human",
-        "gender": "female",
+        "gender": "Female",
         "house": "Ravenclaw",
         "dateOfBirth": "13-02-1981",
         "yearOfBirth": 1981,
@@ -217,7 +219,7 @@
         "name": "Ginny Weasley",
         "alternate_names": [],
         "species": "human",
-        "gender": "female",
+        "gender": "Female",
         "house": "Gryffindor",
         "dateOfBirth": "11-08-1981",
         "yearOfBirth": 1981,
@@ -239,3 +241,4 @@
         "image": "https://ik.imagekit.io/hpapi/ginny.jpg"
     } 
 ] 
+}
