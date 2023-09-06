@@ -54,6 +54,21 @@ body {
   border-color: gold;
  }
 
+ #imgTwo {
+  width: 100px;
+    height: 150px;
+    margin-right: 3.5%;
+    display: center;
+    border: 1px solid white;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#imgTwo:hover {
+  border-color: gold;
+}
+
+
   #student-details {
     padding: 20px;
     border: 1px solid #ccc;
@@ -93,13 +108,6 @@ body {
   border-color: gold;
   color: white;
 }
-
-#imgTwo {
-    width: 200px;
-    height: 250px;
-    display: center;
-    border: 10px solid white;
- }
 
 
  iframe {
