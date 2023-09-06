@@ -1,11 +1,52 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
     <title>Wizarding World</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-    <body>
-        <div>
-            <h1>Wizarding World</h1>
-        </div>
-    </body>
+</head>
+<body>
+    <header>
+      <img id="banner-img" src="./Assets/harry_potter_hogwarts_banner_by_uprisen257_d3jcvxa.png" />
+    </header>
+    <h3 id="welcome">Welcome To Hogwarts !</h3>
+    <h1 id="click"> Click on a Student to learn more</h1>
+    <main id="main">
+        <div id="student-gallery"></div>
+    </main>
+
+    <div id="student-details">
+      <img id= "student-pic" src=""></img>
+      <p id= "student-name"></p> 
+      <p id= "student-gender"></p>
+      <p id= "student-house"></p>
+      <p id= "student-dateofbirth"></p>
+    </div>
+
+    <form id="new-form">
+      <h4>Add Yourself</h4>
+      <label for="name"> Name: </label>
+      <input type="text" name="name" id="name">
+
+      <label for="gender"> Gender: </label>
+      <input type="text" name="gender" id="gender">
+
+      <label for="dob"> Date of Birth: </label>
+      <input type="text" name="dob" id="dob">
+
+      <label for="image-input"> Image URL: </label>
+      <input type="text" name="image-input" id="image-input">
+
+      <label for="house"> House: </label>
+      <input type="text" name="house" placeholder="Spin Wheel for House" id="house">
+
+      <input id="join" type="submit" value="Join Hogwarts">
+
+    </form>
+
+    <iframe id="wheel-iframe" src="https://wheeldecide.com/e.php?c1=Gryffindor&c2=Slytherin+&c3=Ravenclaw&c4=Hufflepuff&col=rybg&t=Which+house+do+you+belong+to%3F&time=7" width="500" height="500" scrolling="no" frameborder="0"></iframe>
+
+</body>
 </html>
