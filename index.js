@@ -60,3 +60,23 @@ form.addEventListener("submit", e => {
     addStudents(newStudent)
     
 })
+
+
+
+// Get references to the iframe and the "house" input field
+const wheelIframe = document.getElementById("wheel-iframe");
+const houseInput = document.getElementById("house");
+
+window.addEventListener("message", (event) => {
+  // Check if the message is from the Wheel Decide iframe
+  if (event.source === wheelIframe.contentWindow) {
+    console.log("Received data:", event.data);
+    
+    // Extract and display the selected value
+    const selectedValue = event.data.split('-')[1];
+    console.log("Extracted value:", selectedValue);
+
+    // Set the selected value in the "house" input field
+    houseInput.value = selectedValue;
+  }
+});

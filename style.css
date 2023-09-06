@@ -48,3 +48,15 @@ body {
     display: center;
     border: 10px solid white;
  }
+
+
+ iframe {
+    display: block;
+    margin: 0 auto; /* This centers the iframe horizontally */
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    /* lower it on the page */
+    position: relative;
+    top: 100px;
+    
+  }
