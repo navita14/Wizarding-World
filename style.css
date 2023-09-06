@@ -18,8 +18,8 @@ body {
   }
   
  #sImage {
-    width: 200px;
-    height: 250px;
+    width: 100px;
+    height: 150px;
     display: center;
     border: 10px solid white;
  }
