@@ -61,8 +61,6 @@ form.addEventListener("submit", e => {
     
 })
 
-
-
 // Get references to the iframe and the "house" input field
 const wheelIframe = document.getElementById("wheel-iframe");
 const houseInput = document.getElementById("house");

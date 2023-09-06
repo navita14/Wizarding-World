@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
-        <h1>Wizarding World</h1>
+      <img id="banner-img" src="./Assets/harry_potter_hogwarts_banner_by_uprisen257_d3jcvxa.png" />
     </header>
-    <main>
+    <h3 id="welcome">Welcome To Hogwarts !</h3>
+    <h1 id="click"> Click on a Student to learn more</h1>
+    <main id="main">
         <div id="student-gallery"></div>
     </main>
 
@@ -25,22 +27,22 @@
 
     <form id="new-form">
       <h4>Add Yourself</h4>
-      <label for="name">Name</label>
+      <label for="name"> Name: </label>
       <input type="text" name="name" id="name">
 
-      <label for="gender">Gender</label>
+      <label for="gender"> Gender: </label>
       <input type="text" name="gender" id="gender">
 
-      <label for="house">House</label>
-      <input type="text" name="house" id="house">
-
-      <label for="dob">Date of Birth</label>
+      <label for="dob"> Date of Birth: </label>
       <input type="text" name="dob" id="dob">
 
-      <label for="image-input">Image URL of Yourself:</label>
+      <label for="image-input"> Image URL: </label>
       <input type="text" name="image-input" id="image-input">
 
-      <input type="submit" value="Sorting Hat">
+      <label for="house"> House: </label>
+      <input type="text" name="house" placeholder="Spin Wheel for House" id="house">
+
+      <input id="join" type="submit" value="Join Hogwarts">
 
     </form>
 
