@@ -13,6 +13,7 @@ const newHouse = document.querySelector("#house")
 const newDob = document.querySelector("#dob")
 const newImage = document.querySelector("#image-input")
 
+
 fetch("http://localhost:3000/characters")
 .then(res => res.json())
 .then(data => {
@@ -66,15 +67,19 @@ const wheelIframe = document.getElementById("wheel-iframe");
 const houseInput = document.getElementById("house");
 
 window.addEventListener("message", (event) => {
-  // Check if the message is from the Wheel Decide iframe
-  if (event.source === wheelIframe.contentWindow) {
-    console.log("Received data:", event.data);
-    
-    // Extract and display the selected value
-    const selectedValue = event.data.split('-')[1];
-    console.log("Extracted value:", selectedValue);
-
-    // Set the selected value in the "house" input field
-    houseInput.value = selectedValue;
-  }
-});
+    // Check if the message is from the Wheel Decide iframe
+    if (event.source === wheelIframe.contentWindow) {
+      console.log("Received data:", event.data);
+  
+      // Extract and display the selected value
+      const selectedValue = event.data.split('-')[1].trim().toLowerCase();;
+      console.log("Extracted value:", selectedValue);
+      // capitalize 
+      function capitalizeWords(str) {
+        return str.replace(/\b\w/g, (char) => char.toUpperCase());
+      }
+      // Set the selected value in the "house" input field
+      houseInput.value = capitalizeWords(selectedValue);
+    }
+  });
+  
