@@ -14,6 +14,7 @@ const newDob = document.querySelector("#dob")
 const newImage = document.querySelector("#image-input")
 
 
+
 fetch("http://localhost:3000/characters")
 .then(res => res.json())
 .then(data => {
@@ -62,6 +63,9 @@ form.addEventListener("submit", e => {
     
 })
 
+
+/////rafa's wheel
+
 // Get references to the iframe and the "house" input field
 const wheelIframe = document.getElementById("wheel-iframe");
 const houseInput = document.getElementById("house");
@@ -82,4 +86,3 @@ window.addEventListener("message", (event) => {
       houseInput.value = capitalizeWords(selectedValue);
     }
   });
-  

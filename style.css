@@ -127,18 +127,6 @@ body {
     width: 80%;
   }
 
-
-  /* #new-form input[type="submit"] {
-    font-family: 'Germania One', cursive; 
-    color: rgb(252, 94, 178);
-    display: block; 
-    background-color: black;
-    border: 1px solid #852570;
-    position: relative; 
-    margin: 0 auto;
-    margin-top: 10px;
-  
-  }  */
   
   #new-form input[type="text"] {
     font-family: 'Germania One', cursive;    background-color: #070707;
